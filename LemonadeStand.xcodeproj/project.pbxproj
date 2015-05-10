@@ -13,6 +13,9 @@
 		85DA426E1AF5459500CE8D2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DA426D1AF5459500CE8D2F /* Images.xcassets */; };
 		85DA42711AF5459500CE8D2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DA426F1AF5459500CE8D2F /* LaunchScreen.xib */; };
 		85DA427D1AF5459500CE8D2F /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DA427C1AF5459500CE8D2F /* LemonadeStandTests.swift */; };
+		85DA42871AF55A7C00CE8D2F /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DA42861AF55A7C00CE8D2F /* Customer.swift */; };
+		85DA42891AF55A9200CE8D2F /* CustomerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DA42881AF55A9200CE8D2F /* CustomerFactory.swift */; };
+		85DA428E1AF64B6A00CE8D2F /* LemonadeSalesEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DA428D1AF64B6A00CE8D2F /* LemonadeSalesEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		85DA42761AF5459500CE8D2F /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DA427B1AF5459500CE8D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85DA427C1AF5459500CE8D2F /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		85DA42861AF55A7C00CE8D2F /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		85DA42881AF55A9200CE8D2F /* CustomerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerFactory.swift; sourceTree = "<group>"; };
+		85DA428D1AF64B6A00CE8D2F /* LemonadeSalesEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonadeSalesEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				85DA42661AF5459500CE8D2F /* AppDelegate.swift */,
 				85DA42681AF5459500CE8D2F /* ViewController.swift */,
 				85DA426A1AF5459500CE8D2F /* Main.storyboard */,
+				85DA42861AF55A7C00CE8D2F /* Customer.swift */,
+				85DA42881AF55A9200CE8D2F /* CustomerFactory.swift */,
+				85DA428D1AF64B6A00CE8D2F /* LemonadeSalesEngine.swift */,
 				85DA426D1AF5459500CE8D2F /* Images.xcassets */,
 				85DA426F1AF5459500CE8D2F /* LaunchScreen.xib */,
 				85DA42641AF5459500CE8D2F /* Supporting Files */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DA42871AF55A7C00CE8D2F /* Customer.swift in Sources */,
+				85DA428E1AF64B6A00CE8D2F /* LemonadeSalesEngine.swift in Sources */,
 				85DA42691AF5459500CE8D2F /* ViewController.swift in Sources */,
+				85DA42891AF55A9200CE8D2F /* CustomerFactory.swift in Sources */,
 				85DA42671AF5459500CE8D2F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
